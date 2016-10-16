@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  
+  
+  <head>
+  <style>
+  *, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F0F7F4;
+}
+
+/*nav bar*/
+ul {
+  list-style-type: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: inline-flex;
+  text-align: center;
+  padding-left: 5px;
+  overflow: hidden;
+  background-color: #000;
+  
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  text-decoration: none;
+  padding-left: 8px;
+}
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Tree.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+  </head>
+
+
+  <body>
+  <!--  side logo-->
+
+    <div id ="animate"><img id="tree" src="file:///android_res/drawable/spruce_landing_page.png" alt="Spruce" style="float:right;width:130px;height:130px;">
+
+  <!--  text-->
+    <h1>Tree Planter</h1>
+    <h5><strong>Save $100...</strong><h5/>
+    <p>You'll plant one virtual tree in your yard,</p>
+    <p>We'll plant one real tree in London, Ontario, as part of ReForest London's National Forest Week!</p>
+  <body/>
+
+
+  <body2>
+    <h3>Your Progress:</h3>
+  <!--bloop hi allen this is the space for your trees and seeds; do like 4 rows of 5 seeds/trees-->
+  </body2>
+
+  <img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+<img src="file:///android_res/drawable/tree1.png" alt="spruce" width="60" height="70">
+
+<html/>
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:orientation="vertical" >  
+    
+    <WebView
+    	android:id="@+id/wvAnimationSignUp"
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1"
+	/>
+    
+    <Button
+     	android:id="@+id/btFinish"
+     	android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#7E8D85"    
+        android:text="@string/finish" />
+        
+</LinearLayout>
+

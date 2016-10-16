@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<style>
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+#myCanvas {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50px;
+  top:0px;
+  border:1px solid #c3c3c3;
+  background-color: blue;
+}
+</style>
+<body>
+
+<div id ="container">
+<div id ="animate"><img src="file:///android_res/drawable/ic_launcher.png" style="vertical-align:bottom" height="50" width="50"></div>
+<canvas id="myCanvas">
+Your browser does not support the canvas element.
+</canvas>
+</div>
+
+
+<script>
+function myMove() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      pos = 0;
+      elem.style.top = pos + 'px'; 
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      //elem.style.left = pos + 'px'; 
+    }
+  }
+}
+function myMoveDiagnal() {
+
+  var elem = document.getElementById("myCanvas"); 
+  var ctx = elem.getContext("2d");  
+  ctx.font = "50px Arial";
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+  
+    if (pos<10)
+      ctx.fillText("A",10,50);
+  	else if (pos<20)
+      ctx.fillText("B",10,50);
+  	else if (pos<30)
+      ctx.fillText("C",10,50);
+  	else if (pos<40)
+      ctx.fillText("D",10,50);
+  	else if (pos<50)
+      ctx.fillText("E",10,50);
+  	else if (pos<60)
+      ctx.fillText("F",10,50);
+  	else
+      ctx.fillText("G",10,50);
+  	
+    if (pos == 350) {
+      pos = 0;
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+function myMoveSideways() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      pos = 0;
+      elem.style.left = pos + 'px'; 
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.left = pos + 'px'; 
+      //elem.style.top = pos + 'px'; 
+    }
+  }
+}
+function myShake() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var counter = 0;
+  var direction = 0;//0 for going right and 1 for going left
+  var id = setInterval(frame, 5);
+  function frame() {
+    
+    
+    if (counter == 5) {
+      clearInterval(id);
+    } else {
+      if (direction==0)
+      	pos+=4;
+      else 
+        pos-=4;	 
+      //change direction  
+      if (direction==0 && pos>=20) {
+      	direction = 1;
+      	counter++;
+      }	
+      else if (direction==1 && pos<=0) {
+        direction = 0;
+        counter++;
+      }
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>
+
+</body>
+</html>

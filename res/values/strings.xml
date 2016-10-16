@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MiniMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="inputmoney">How much are you saving today?</string>
+    <string name="signup">Sign-up</string>
+    <string name="click">Tap to continue</string>
+    <string name="finish">Finish</string>
+    <string name="Goals">Goals</string>
+    <string name="Tree">Tree</string>
+    <string name="Account">Account</string>
+
+</resources>

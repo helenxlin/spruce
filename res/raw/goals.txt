@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  
+  
+  <head>
+  <style>
+  *, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F0F7F4;
+}
+
+/*nav bar*/
+ul {
+  list-style-type: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: inline-flex;
+  text-align: center;
+  padding-left: 5px;
+  overflow: hidden;
+  background-color: #000;
+  
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  text-decoration: none;
+  padding-left: 8px;
+}
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Tree.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+  </head>
+
+
+  <body>
+  <!--  side logo-->
+
+    <div id ="animate"><img id="tree" src="file:///android_res/drawable/spruce_landing_page.png" alt="Spruce" style="float:right;width:130px;height:130px;">
+
+  <!--  text-->
+    <h1>Your Goals</h1>
+    <h5><strong>1. Save $100 every week</strong><h5/>
+    <h5><strong>2. Save $3000 every month</strong><h5/>
+    <h5><strong>3. Save $10000 every year</strong><h5/>
+    <p>Achieve your goals to earn more trees!</p>
+    <p>For every tree you get, a real tree in London, Ontario will be planted as part of ReForest London's National Forest Week!</p>
+  <body/>
+
+<html/>
