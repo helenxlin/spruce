@@ -1,2 +1,2 @@
 # spruce
-Spruce Danking --I mean, banking. A forward-thinking banking app that teaches financial and environmental literacy.
+Spruce Danking -- I mean, Banking. A forward-thinking Android banking app that teaches financial and environmental literacy.
